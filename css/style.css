@@ -1,0 +1,394 @@
+/* navbar */
+
+.navbar {
+    position: relative;
+     font-family: Amatic SC;
+     position: sticky;
+     
+   
+}
+.navbar-brand{
+    font-family: Amatic SC;
+    font-size: 32px;
+    
+}
+
+/* jumbotron */
+
+.jumbotron{
+    background-image: url(../image/b.jpg);
+    background-size: cover;
+    height: 500px;
+    color: white;
+}
+
+.jumbotron span::before {
+    content: '';
+    animation: animate infinite 9s; 
+}
+
+.tools{
+
+    margin-top: -50px;
+}
+@keyframes animate{
+    0% {
+        content: 'DICKY WAHYU';
+    }
+     350% {
+         content: 'a Web Developer';
+     }
+      40% {
+          content: 'a Freelancer';
+      }
+       60% {
+           content: 'a Mobile apps';
+       }
+        80% {
+            content: 'a Web Designer';
+        }
+         100% {
+             content: 'a Video Editor';
+         }
+}
+
+.skill img {
+    margin-top: 20px;
+     margin-right: 20px;
+     margin-bottom: 20px;
+     height: 60px;
+     width: 60px;
+
+
+}
+.jumbotron img{
+   margin-left: 100px;
+   margin-top: -50px;
+  
+}
+
+.jumbotron h1{
+margin-top: 40px;
+}
+
+.jumbotron h1, .jumbotron p {
+    font-family: 'Poppins',    sans-serif;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    
+}
+
+.jumbotron p {
+    font-size: small;
+
+}
+
+
+
+.display-7{
+     font-family: 'Nunito', sans-serif;
+     font-size:20px;
+     margin-top: 1px;
+
+  
+
+}
+
+.container h1{
+        font-family: 'Poppins',
+        sans-serif;
+
+}
+.container p {
+    font-family: 'Poppins',
+        sans-serif;
+
+}
+
+.about{
+    margin-top: 20px;
+    
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: red;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+/* info panel */
+.info-panel{
+    box-shadow: 0 3px 20px rgba(0,0 ,0, 0.5) ;
+    border-radius: 12px;
+    margin-top: -100px;
+    background-color:#f2f2f2;
+    padding: 30px;
+
+}
+
+.info-panel img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 50px;
+}
+.info-panel h5{
+    font-family: Amatic SC;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}   
+
+.info-panel p{
+    font-family: 'Poppins',    sans-serif;
+    
+}
+
+.project{
+    margin-top: 30px;
+    
+}
+.project img{
+    margin-bottom: 60px;
+
+}
+
+
+.project h1{
+    font-size: 60px;
+}
+
+.skills{
+width: 500px;
+margin: 60px auto;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  background-color:#f2f2f2;
+  padding: 30px;
+  color: black;
+   font-family: 'Poppins',
+   sans-serif;
+
+}
+
+.skills li{
+    margin: 20px 0;
+    
+}
+.tools img{
+    background-position: center;
+}
+
+.contact{
+    width: 500px;
+    margin: 60px auto;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background-color:#f2f2f2;
+    padding: 30px;
+    color: black;
+    font-family: 'Poppins',
+    sans-serif;
+
+}
+
+.card-footer img{
+
+    height: 20px;
+    width: 20px;
+}
+.bar{
+    background:#a6b7bf;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0,3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px greenyellow;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: green;
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+.css {
+    width: 90%;
+    animation: css 2s;
+}
+.javascript {
+    width: 75%;
+    animation: javascript 2s;
+}
+.php {
+    width: 80%;
+    animation: php 2s;
+}
+.java {
+    width: 60%;
+    animation: java 2s;
+}
+
+.kotlin {
+    width: 60%;
+    animation: kotlin 2s;
+}
+
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+   
+}
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+
+}
+
+@keyframes php {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+
+}
+
+
+/* DEKSTOP VERSI */
+@media (min-width: 992px) {
+
+    .navbar {
+        position:sticky;
+
+    }
+    
+    .navbar-brand, .nav-link { 
+
+    color: white !important;
+     } 
+    
+    .navbar {
+       
+        
+           
+
+    }
+  
+   .nav-link {
+       text-transform: uppercase;
+       margin-right: 30 px;
+   }
+
+   .nav-link:hover:after{
+       content: '';
+       display: block;
+       border-bottom: 3px solid salmon;
+       width: 50%;
+       margin: auto;
+       padding-bottom: 5px;
+       margin-bottom: -8px;
+
+   }
+
+   .jumbotron{
+       height: 500px;
+       margin-top: -80px;
+      
+   }
+   .display-7 {
+       font-family: 'Nunito', sans-serif;
+       font-size: 40px;
+       margin-top: 5px;
+
+       
+   }
+
+   .jumbotron h1 {
+       margin-top: 50px;
+   }
+
+   .jumbotron img {
+       margin-top: 50px;
+       height:420px ;
+       width:290px ;
+      
+   }
+   
+   .jumbotron p {
+       font-size: 18px;
+
+   }
+
+ 
+
+   .bg-light{
+        background: transparent !important;
+        transition: 0.75s ease;
+
+   }
+   
+   .bg-light.scrolled{
+       background: #000 !important;
+   }
+   .card-footer img {
+
+       height: 45px;
+       width: 45px;
+   }
+ 
+}
