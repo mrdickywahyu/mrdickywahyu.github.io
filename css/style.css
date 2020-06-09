@@ -152,7 +152,22 @@ margin-top: 40px;
     padding: 30px;
 
 }
+.btn{
+    width: 100px;
+    height: 40px;
+    background: none;
+    border: 3px solid;
+    color: honeydew;
+   cursor: pointer;
+   
+   position: relative;
+}
 
+
+.fa-whatsapp{
+
+    color: green;
+}
 .info-panel img{
     margin-right: 20px;
     margin-bottom: 20px;
